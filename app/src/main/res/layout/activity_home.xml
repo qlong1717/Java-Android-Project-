@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg"
+    tools:context=".home">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Wellcome to KisUP"
+        android:textColor="@color/colorPrimaryDark"
+        android:fontFamily="sans-serif-medium"
+        android:layout_marginTop="55dp"
+        android:textSize="30sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.462">
+    </TextView>
+    <LinearLayout
+        android:id="@+id/linearLayout"
+        android:layout_width="349dp"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_marginTop="260dp"
+        android:layout_marginBottom="0dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.737">
+
+        <Button
+            android:layout_width="201dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="10dp"
+            android:background="@color/buttonbg"
+            android:fontFamily="sans-serif-condensed"
+            android:id="@+id/newfeed"
+            android:text="New feed Video"
+            android:textColor="#000"
+            android:textSize="25sp" />
+        <Button
+            android:layout_width="201dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="10dp"
+            android:background="@color/buttonbg"
+            android:fontFamily="sans-serif-condensed"
+            android:id="@+id/speaking"
+            android:text="Speaking Video"
+            android:textColor="#000"
+            android:textSize="25sp" />
+        <Button
+            android:layout_width="201dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="10dp"
+            android:background="@color/buttonbg"
+            android:fontFamily="sans-serif-condensed"
+            android:id="@+id/reading"
+            android:text="Reading Video"
+            android:textColor="#000"
+            android:textSize="25sp" />
+        <Button
+            android:layout_width="201dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="10dp"
+            android:background="@color/buttonbg"
+            android:fontFamily="sans-serif-condensed"
+            android:id="@+id/listening"
+            android:text="listening Video"
+            android:textColor="#000"
+            android:textSize="25sp" />
+        <Button
+            android:layout_width="201dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="10dp"
+            android:background="@color/buttonbg"
+            android:fontFamily="sans-serif-condensed"
+            android:id="@+id/writing"
+            android:text="writing video"
+            android:textColor="#000"
+            android:textSize="25sp" />
+        <Button
+            android:layout_width="201dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="10dp"
+            android:background="@color/buttonbg"
+            android:fontFamily="sans-serif-condensed"
+            android:id="@+id/eap"
+            android:text="learning"
+            android:textColor="#000"
+            android:textSize="25sp" />
+        <Button
+            android:layout_width="201dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="10dp"
+            android:background="@color/buttonbg"
+            android:fontFamily="sans-serif-condensed"
+            android:id="@+id/profile"
+            android:text="Profile"
+            android:textColor="#000"
+            android:textSize="25sp" />
+
+
+    </LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>
